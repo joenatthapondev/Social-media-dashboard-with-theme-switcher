@@ -1,0 +1,87 @@
+body {
+    background: hsl(230, 17%, 14%);
+}
+
+.box-head {
+    background: hsl(232, 19%, 15%);
+}
+
+.mode-dark-light {
+    color: hsl(228, 34%, 66%);
+}
+
+.mode {
+    background: linear-gradient(to right, hsl(210, 78%, 56%), hsl(146, 68%, 55%));
+}
+
+.title__text {
+    color: hsl(0, 0%, 100%);
+}
+
+.title__subtext {
+    color: hsl(228, 34%, 66%);
+}
+
+.card-foll {
+    background: hsl(228, 28%, 20%);
+    transition: .3s;
+}
+
+.card-foll:hover {
+    background: #333A56;
+}
+
+.card-foll__link-user{
+    color: hsl(228, 34%, 66%);
+}
+
+.total-followers__number {
+    color: hsl(0, 0%, 100%);
+}
+
+.total-followers__text{
+    color: hsl(228, 34%, 66%);
+}
+
+.recently__days {
+    color: hsl(163, 72%, 41%);
+}
+
+.recently__days--red {
+    color: hsl(356, 69%, 56%);
+}
+
+.mode__selector {
+    background: #353957;
+}
+
+.content-overviews {
+    color: hsl(0, 0%, 100%);
+}
+
+.card-over {
+    background: hsl(228, 28%, 20%);
+    transition: .3s;
+}
+
+.card-over:hover {
+    background: #333A56;
+}
+
+.percent__value {
+    color: hsl(163, 72%, 41%);
+}
+
+.type-view__text {
+    color: hsl(228, 34%, 66%);
+}
+
+.percent__value--red {
+    color: hsl(356, 69%, 56%);
+}
+
+@media screen and (max-width: 550px){
+    .mode-dark-light{
+        border-top: 1px solid hsl(228, 34%, 66%);
+    }
+}
